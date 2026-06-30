@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ui.home.HomeFragment"
+    android:background="#eee">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+<!--        <com.smarteist.autoimageslider.SliderLayout-->
+<!--            android:id="@+id/imageSlider"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="220dp"-->
+<!--            android:layout_margin="8dp" />-->
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_margin="16dp"
+            app:cardCornerRadius="8dp">
+
+            <com.smarteist.autoimageslider.SliderView
+                android:id="@+id/imageSlider"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                app:sliderAnimationDuration="600"
+                app:sliderAutoCycleDirection="back_and_forth"
+                app:sliderAutoCycleEnabled="true"
+                app:sliderCircularHandlerEnabled="true"
+                app:sliderIndicatorAnimationDuration="600"
+                app:sliderIndicatorGravity="center_horizontal|bottom"
+                app:sliderIndicatorMargin="15dp"
+                app:sliderIndicatorOrientation="horizontal"
+                app:sliderIndicatorPadding="3dp"
+                app:sliderIndicatorRadius="2dp"
+                app:sliderIndicatorSelectedColor="#5A5A5A"
+                app:sliderIndicatorUnselectedColor="#FFF"
+                app:sliderScrollTimeInSec="1"
+                app:sliderStartAutoCycle="true" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="16dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="16dp"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:fontFamily="@font/kameron"
+                            android:text="About Trust :-"
+                            android:textColor="#F68C6A"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginVertical="8dp"
+                            android:fontFamily="@font/squada_one"
+                            android:textColor="#5E4D7A"
+                            android:justificationMode="inter_word"
+                            android:text="Late Shree Shamrao Patil (Yadravkar) was the founder of Shree. Shamrao Patil (Yadravkar) Educational And Charitable Trust, Jaysingpur Dist-Kolhapur.He was a great Social Worker of Yadrav and Jaysingpur area, who tried to help farmers and poor backward people of their upliftment. Trust established in 1986 and now runs following Institutions:"
+                             />
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@drawable/t1"
+                            android:layout_marginTop="10dp"/>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/abouttrust"
+                            android:fontFamily="@font/squada_one"
+                            android:textColor="#5E4D7A"
+                            android:layout_marginHorizontal="20dp"
+                            android:layout_marginVertical="8dp"
+                            android:layout_marginLeft="10dp"
+                            android:text="abouttrust"
+                            android:layout_marginTop="10dp"/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="16dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_marginBottom="8dp"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:text="About Trust:-"
+
+                            android:fontFamily="@font/kameron"
+                            android:textColor="#F68C6A"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="16dp"
+                            android:padding="8dp"
+                            android:justificationMode="inter_word"
+                            android:textAlignment="viewStart"
+                            android:fontFamily="@font/squada_one"
+                            android:textColor="#5E4D7A"
+                            android:text="Sharad Institute of Technology, Polytechnic Wing is a self-financing Polytechnic, established in the year 2008 and founded by Hon’ble Shri. Rajendra Patil (Yadravkar), Chairman of Shree Shamrao Patil (Yadravkar) Educational And Charitable Trust’s also Sharad Sugar factory at Narade and leading many other organizations in Kolhapur district. It has been approved By All India Council for Technical Education, New Delhi and the Government of Maharashtra."/>
+
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@drawable/slider1"
+                            android:layout_marginTop="10dp"/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="16dp"
+                            android:padding="8dp"
+                            android:fontFamily="@font/squada_one"
+                            android:textColor="#5E4D7A"
+                            android:justificationMode="inter_word"
+                            android:text="Our Polytechnic is situated at Yadrav- Ichalkaranji, on Sangli Road. Our Polytechnic is sponsored by Shamrao Patil-Yadravkar Educational Charitable Trust, Jaysingpur. The total area of the land is 5 acres and we take pride in stating that three-storied buildings have been constructed for constituting spacious and ventilated lecture halls, well-equipped laboratories and workshops. Apart from our 13695.28 sq.m. built up area, with well designed landscape, playground and other amenities.
+
+Our polytechnic has envisioned to build entrepreneurship in students right from the day student gets admitted to the institute. We are planning to have advisory boards for imparting cutting edge technology and current practices by involving technical experts and professionals from industries and other educational institutes. In the present era of globalization, we look forward to train our students to be capable of tackling the future technical challenges."/>
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+                <androidx.cardview.widget.CardView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="8dp"
+                    app:cardCornerRadius="16dp">
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="20dp"
+                            android:text="Vision And Mission:- "
+                            android:fontFamily="@font/kameron"
+                            android:textColor="#F68C6A"
+                            android:textSize="22sp"
+                            android:textStyle="bold" />
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="10dp"
+                            android:padding="8dp"
+                            android:justificationMode="inter_word"
+                             android:text="Vision:-"
+                            android:fontFamily="@font/kameron"
+                            android:textColor="#03A9F4"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="10dp"
+                            android:padding="8dp"
+                            android:fontFamily="@font/squada_one"
+                            android:textColor="#5E4D7A"
+                            android:justificationMode="inter_word"
+                            android:text="To be a center of excellence in technical education by using cutting edge technology that produces competent engineers of today and tomorrow to serve the society."/>
+
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="10dp"
+                            android:padding="8dp"
+                            android:justificationMode="inter_word"
+                            android:fontFamily="@font/kameron"
+                            android:textColor="#03A9F4"
+                            android:text="Mission"
+                            android:textStyle="bold"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginHorizontal="10dp"
+                            android:padding="8dp"
+                            android:justificationMode="inter_word"
+                            android:fontFamily="@font/squada_one"
+                            android:textColor="#5E4D7A"
+                            android:text="Mission:-"
+                            android:id="@+id/mission"/>
+
+                    </LinearLayout>
+                </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="16dp"
+            android:layout_marginHorizontal="8dp"
+            android:layout_marginVertical="8dp"
+
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:padding="8dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Directions:"
+                    android:textColor="#EC4610"
+                    android:fontFamily="@font/kameron"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    android:layout_marginStart="4dp"
+                    android:layout_margin="16dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="400dp"
+                    android:src="@drawable/map"
+                    android:layout_marginHorizontal="16dp"
+                    android:layout_marginBottom="16dp"
+                    android:scaleType="fitXY"
+                    android:id="@+id/map"/>
+
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+
+
+
+        <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="20dp"
+       android:layout_marginTop="20dp"
+       android:text="SIT Placement in Dream Companies"
+            android:fontFamily="@font/kameron"
+            android:textColor="#EC4610"
+       android:textSize="22sp"
+       android:textStyle="bold" />
+      <LinearLayout
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent"
+       android:layout_marginLeft="10dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginRight="10dp"
+       android:orientation="vertical">
+
+
+       <HorizontalScrollView
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:scrollbars="none">
+
+           <LinearLayout
+               android:layout_width="fill_parent"
+               android:layout_height="fill_parent"
+               android:orientation="horizontal">
+
+               <androidx.cardview.widget.CardView
+                   android:layout_width="160dp"
+                   android:layout_height="160dp"
+                   android:layout_marginLeft="5dp"
+                   android:layout_marginTop="5dp"
+                   android:layout_marginBottom="5dp"
+                   android:background="#FFFFFF"
+                   app:cardCornerRadius="10dp">
+
+
+                   <ImageView
+                       android:layout_width="160dp"
+                       android:layout_height="160dp"
+                       android:src="@drawable/c1" />
+                   <!--  android:layout_marginLeft="30dp"
+                    android:layout_marginTop="15dp"-->
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#aaaaaa"
+                        app:cardCornerRadius="10dp">
+
+
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_height="160dp"
+                            android:src="@drawable/c2" />
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        app:cardCornerRadius="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#aaaaaa">
+
+
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_height="160dp"
+                            android:src="@drawable/c4" />
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#aaaaaa"
+                        app:cardCornerRadius="10dp">
+
+
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_height="160dp"
+                            android:src="@drawable/c3" />
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="5dp"
+                        android:background="#aaaaaa"
+                        app:cardCornerRadius="10dp">
+
+
+                        <ImageView
+                            android:layout_width="160dp"
+                            android:layout_height="160dp"
+                            android:src="@drawable/c5" />
+
+
+
+
+                    </androidx.cardview.widget.CardView>
+
+                </LinearLayout>
+
+
+            </HorizontalScrollView>
+
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            app:cardCornerRadius="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/rajendra_patil"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hon’ble Shri Dr.Rajendra Patil (MLA) "
+                    android:textAlignment="center"
+                    android:padding="8dp"
+                    android:layout_marginHorizontal="8dp"
+                    android:justificationMode="inter_word"
+                    android:fontFamily="@font/kameron"
+                    android:textColor="#03A9F4"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Chairman"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/kameron"
+                    android:textColor="#03A9F4"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/chairman"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:text="chairman"/>
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            app:cardCornerRadius="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/anil"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Hon’ble Shri Anil Bagane "
+                    android:textAlignment="center"
+                    android:fontFamily="@font/kameron"
+                    android:textColor="#03A9F4"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Executive Director"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/kameron"
+                    android:textColor="#03A9F4"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:text="executivedirector"
+                    android:id="@+id/executivedirector"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            app:cardCornerRadius="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/principal"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mr.B.S.Tashildar"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/kameron"
+                    android:textColor="#03A9F4"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Principal"
+                    android:textAlignment="center"
+                    android:fontFamily="@font/kameron"
+                    android:textColor="#03A9F4"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Shamrao Patil (Yadravkar) Educational and Charitable Trust has been contributing in the mission of transforming rural India into developed nation by running Sharad Institute of Technology’s Polytechnic at Yadrav, Ichalkaranji (SITP) with innovation, creativity, human intelligence and patience.“Service to Human being is Service to God”. It gives me immense pleasure to welcome you to the creative world of SIT Polytechnic which has very eco-friendly campus and is equipped with state-of-art infrastructure. We have well equipped labs, workshops and libraries to help students in attaining highest standards in academics, research and professional skills. The campus has adequate sports infrastructure to take care of Sports and recreational activities. Creating better human beings’ is our motto and we can do that when we are able to mould our students to be good human beings with values which are embedded for life. We aim to provide an overall development that nurtures them towards becoming strong and focused human beings. Soft skills and educational skills is what the institution seeks to provide every student at the campus itself through its SHARAD PATTERN. The main focus of the Institution is to empower students with sound knowledge, wisdom, experience and training both at the academic level of Diploma Engineering and in the highly competitive global industrial market. The infrastructure facilities and state-of-the-art equipments combined with a galaxy of competent, talented and dedicated faculty contribute to an enjoyable and an easy learning experience. We wish the best for all our students, and the members of the institution who reiterate their aims at providing the best in academic and extra-curricular fields. We must believe that success is inevitable where these exist- Foresightedness, Firm Determination, Hard work and Discipline."
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    />
+
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:padding="8dp"
+            app:cardCornerRadius="16dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Sharad Pattern :-"
+                    android:fontFamily="@font/kameron"
+                    android:textColor="#F68C6A"
+                    android:textSize="22dp"
+                    android:textStyle="bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Education is not the amount of information that is put into your brain and runs unrest there, undigested all your life. We must have life-building, man making, character making and integration of ideas. As Swami Vivekananda has aptly said:\n “We want that education by which character is formed, strength of mind is increased, the intellect is expanded and by which one can stand on one’s own feet”.\n  Today we live in twenty first century. It is an age of inventions and innovations. So, what do you want from education system: to make you just a ‘LITERATE’ or an ‘EDUCATED’. The very word education is derived from the word “Educaire” which means “to bring up”. To bring up each and every stakeholder of the system in every aspect it may be economical, social as well as personal. In Sharad Pattern we are committed provide these things. \n"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                  android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/sit3"
+                    android:layout_marginTop="10dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Education system should not just produce students only as human resource and make them ‘knowledge products’ and ‘services’. But it should aim on all round shaping up of one’s personality. In the present system a teacher’s concern should be on-not just imparting knowledge but also tapping the inherent talents of a student. Because  every human being can be an engineer but not every engineer can be a great human being so we are committed to make student great human being who can lift up others by standing on his/her own feet.\nWe in Sharad pattern yearn the socio-economical development of all members of SIT family, first and foremost the parents who are actually determining factor of all, then students who are the asset for us, next its faculty from apex to nadir who are backbone of the system and finally the management the prime drive that motivates all of them to work, So we maintain this perfect square by working in unison.\nEducation should not be limited to books but it needs to be full of interaction, exposure and opportunities. In my opinion, co-curricular activities should be made an integral part of education for the overall development of the student. Besides books and the rat race, the students should be made to follow the moral values. Last but not the least the education should be transformed into a practical process where apart from the texts, there is a space for the students to create new ideas, activities should also be held like – project exhibitions where student can come up with their new ideas, imaginations and try to create something new, something more interesting…..they could try to implement it and move beyond the books. The need of the hour is not just an academic education but we need more practical and value based education .It should be like the words of Swami Vivekananda—” Man making education is what we want\n And after all “The education which does not help the common mass of people to equip themselves for the struggle of life, which does not bring out strength of character, a spirit of philanthropy, and the courage of a lion – is it worth the name? Real education is that which enables one to stand on one’s own legs. Education must provide ‘life-building, man-making, character-making assimilation of ideas”. The ideal of this type of education would be to produce an integrated person. We are proud to say that we with the help of Sharad Pattern are actually implementing these things rigorously from its inception and we will take ceaseless endeavors to accomplish everything that has been promised by us. Besides this we will also be an Alma Mater i.e.  Caring mother of all its family members."
+                   android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    />
+
+
+
+
+
+            </LinearLayout>
+
+
+
+
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

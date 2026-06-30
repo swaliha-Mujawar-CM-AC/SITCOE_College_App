@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.LoginActivity"
+    >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SIT Ploytechic, Yadrav"
+        android:textAllCaps="true"
+        android:textSize="22sp"
+        android:layout_marginStart="22dp"
+        android:id="@+id/tt"
+        android:layout_marginTop="30dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:fontFamily="@font/inder"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login Form"
+        android:layout_below="@id/tt"
+        android:layout_marginTop="8dp"
+        android:textSize="20sp"
+        android:layout_marginStart="22dp"
+        android:id="@+id/ttt"
+        android:textColor="#000"
+        android:textStyle="bold"
+        android:fontFamily="@font/inder"/>
+
+
+
+
+
+
+
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_person_24"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:layout_marginEnd="40dp"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/fab_login"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Student Login"
+            android:textAlignment="center"
+            android:textSize="22sp"
+            android:layout_below="@id/login_btn"
+            android:textColor="#000"
+            android:textStyle="bold"
+            android:fontFamily="@font/inder"/>
+
+
+
+
+      <EditText
+          android:id="@+id/login_email_ed"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Email Id"
+          android:layout_below="@id/ttt"
+          android:padding="20dp"
+          android:backgroundTint="#f79987"
+          android:layout_marginTop="20dp"
+          android:textColorHint="@color/white"
+          android:background="@drawable/round"
+          android:layout_marginHorizontal="30dp"
+          android:stateListAnimator="@null"
+          android:inputType="textEmailAddress" />
+
+
+
+      <EditText
+          android:id="@+id/password"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:backgroundTint="#f79987"
+          android:layout_below="@id/login_email_ed"
+          android:hint="Passwird"
+          android:padding="20dp"
+          android:textColorHint="@color/white"
+          android:background="@drawable/round"
+          android:layout_marginHorizontal="30dp"
+          android:layout_marginTop="16dp"
+          android:stateListAnimator="@null"
+          android:inputType="textPassword" />
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          app:cardCornerRadius="15dp"
+          android:layout_below="@id/password"
+          android:layout_marginTop="16dp"
+          android:layout_marginHorizontal="30dp"
+          app:cardBackgroundColor="#f79987"
+          android:id="@+id/c1"
+          android:stateListAnimator="@null"
+          >
+<!--          <Spinner-->
+<!--              android:layout_width="match_parent"-->
+<!--              android:layout_height="wrap_content"-->
+<!--              android:id="@+id/student_class_teacher_sp"-->
+<!--              android:spinnerMode="dropdown"-->
+<!--              android:gravity="center"-->
+<!--              android:padding="8dp"-->
+<!--              android:dropDownSelector="@android:color/holo_red_dark"-->
+<!--              />-->
+      </androidx.cardview.widget.CardView>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/inder"
+        android:padding="16dp"
+        android:layout_below="@id/c1"
+        android:textAllCaps="true"
+        android:backgroundTint="#f1351d"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/round"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="16sp"
+        android:id="@+id/login_btn"
+        android:text="log in  :)"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="--- or ---"
+          android:textAllCaps="true"
+          android:textAlignment="center"
+          android:textSize="22sp"
+          android:id="@+id/or"
+          android:layout_below="@id/login_btn"
+          android:textColor="#000"
+          android:layout_marginTop="30dp"
+          android:textStyle="bold"
+          android:fontFamily="@font/inder"/>
+
+<!--      <TextView-->
+<!--          android:layout_width="match_parent"-->
+<!--          android:layout_height="wrap_content"-->
+<!--          android:text="login as a guest"-->
+<!--          android:textAllCaps="true"-->
+<!--          android:textAlignment="center"-->
+<!--          android:textSize="22sp"-->
+
+<!--          android:textColor="#000"-->
+<!--          android:layout_below="@+id/or"-->
+<!--          android:id="@+id/t2"-->
+<!--          android:layout_marginTop="22dp"-->
+<!--          android:textStyle="bold"-->
+<!--          android:fontFamily="@font/inder"/>-->
+
+      <Button
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:background="@drawable/round"
+          android:fontFamily="@font/inder"
+          android:id="@+id/guest_login_btn"
+          android:layout_marginBottom="26dp"
+          android:padding="16dp"
+          android:layout_centerHorizontal="true"
+          android:layout_below="@+id/t2"
+          android:layout_gravity="center_horizontal"
+          android:textAllCaps="true"
+          android:backgroundTint="#f1351d"
+          android:layout_marginTop="20dp"
+          android:textSize="16sp"
+          android:text="Login As a Guest"
+          android:elevation="4dp"
+          android:textColor="@color/white"
+          android:textStyle="bold" />
+
+    </LinearLayout>
+
+  </RelativeLayout>
+
+

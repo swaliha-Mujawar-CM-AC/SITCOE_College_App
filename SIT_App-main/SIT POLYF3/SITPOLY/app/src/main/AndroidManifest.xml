@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.empire.sitpoly">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SITPOLY">
+        <activity android:name=".ui.about.ProfileActivity"></activity>
+        <activity android:name=".SettingActivity" />
+        <activity android:name=".SplashActivity" />
+        <activity android:name=".DepartmentActivity" />
+        <activity android:name=".activities.PdfOpnerActivity" />
+        <activity android:name=".activities.PdfActivity" />
+        <activity android:name=".activities.ImageActivity" />
+        <activity android:name=".activities.GalleryActivity" />
+        <activity android:name=".activities.StatusActivity" />
+        <activity android:name=".activities.MainActivity" />
+        <activity android:name=".activities.LoginActivity" />
+        <activity android:name=".authentication.RegisterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

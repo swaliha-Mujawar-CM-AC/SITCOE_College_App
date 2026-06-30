@@ -1,0 +1,690 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DepartmentActivity"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar_Department"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="@color/purple_500"/>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+         <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/donegal_one"
+                android:text="Department Of Computer Engineering"
+                android:textColor="#F68C6A"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/d1"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/bentham"
+                android:text="Department At A Glance :"
+                android:textColor="#03A9F4"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+         <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:fontFamily="@font/squada_one"
+             android:textColor="#5E4D7A"
+            android:layout_marginLeft="10dp"
+            android:text="The department of Computer Engineering was established in the year 2008. The labs are fully equipped with the state of the art computer systems, open source software’s, licensed software’s and modern teaching aids. Experienced, dynamic and young teaching faculty contributes to the dissemination of technical knowledge and solves the real-time problems along with the students. The Students are motivated to undertake industry-related issues, provide community services and be a part of nation-building. The strong alumni base serving across the nation / world for many years is a milestone in the achievements of the department goals and programme outcomes.\n The department is committed to foster the innovation and research attitude in the minds of the youngsters. We are bound to involve in the social and technical mission of the nation."
+            android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#03A9F4"
+                android:fontFamily="@font/bentham"
+                android:layout_marginLeft="10dp"
+                android:text="Vision :"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/squada_one"
+                android:textColor="#5E4D7A"
+                android:layout_marginLeft="10dp"
+                android:text="“To develop professionally competent computer engineers with lifelong learning attitude for serving betterment of society.”"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bentham"
+                android:textColor="#03A9F4"
+                android:layout_marginLeft="10dp"
+                android:text="Mission:"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/squada_one"
+                android:textColor="#5E4D7A"
+                android:layout_marginLeft="10dp"
+                android:text="To prepare computer professionals through quality education to meet the need of society.\n\nTo educate students with professionals skills and right attitude that will help them to be successful in their profession.\n\nTo groom students with moral and ethical values for becoming a useful part of society and environment.\n"
+                android:layout_marginTop="10dp"
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bentham"
+                android:textColor="#03A9F4"
+                android:layout_marginLeft="10dp"
+                android:text="Program Educational Objectives :"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/squada_one"
+                android:textColor="#5E4D7A"
+                android:layout_marginLeft="10dp"
+                android:text="The Students will be able to pursue successful career in higher studies or industry.\n\n The Students will be able to utilize domain knowledge of computer engineering for solving real life problems.\n\nThe Students will be able to Demonstrate professional skills through effective communication, teamwork,multidisciplinary approach and ethical behavior with concern to society and environment.\n"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+         <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:cardCornerRadius="16dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="20dp"
+                android:text="Department Of Civil Engineering"
+                android:fontFamily="@font/donegal_one"
+                android:textColor="#F68C6A"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:src="@drawable/civil"
+                android:layout_marginTop="10dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bentham"
+                android:textColor="#03A9F4"
+                android:layout_marginLeft="10dp"
+                android:text="Department At A Glance :"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/squada_one"
+                android:textColor="#5E4D7A"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Sharad Institute of Technology Polytechnic, Yadrav was established in 2008 and Department of civil Engineering is part of the institute since its inception. The departmental activities embrace planning, design, construction and management. The department has developed strong interaction with the construction industry. Many of the faculty members have completed their post-graduation. Besides high quality teaching department is actively involved in consultancy. It undertakes industrial consultancy work as a part of its interaction with industry and also organizes seminars for professional interaction. Many of our alumni hold prestigious position in leading academic institutions, industry and government. The department contributes to the interdisciplinary academic and various activities of the institute."/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#03A9F4"
+                android:layout_marginLeft="10dp"
+                android:fontFamily="@font/bentham"
+                android:text="Vision :"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/squada_one"
+                android:textColor="#5E4D7A"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="“To excel in Civil Engineering education to prepare professionally competent engineers with lifelong learning attitude for the accomplishment of ever-growing needs of society.”"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bentham"
+                android:textColor="#03A9F4"
+                android:layout_marginLeft="10dp"
+                android:text="Mission :"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/squada_one"
+                android:textColor="#5E4D7A"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="To prepare technically and professionally competent engineers by imparting quality education through effective teaching learning methodologies and providing stimulating environment for research and innovation.\n\n To develop professional skills and right attitude in students that will help them to succeed and progress in their personal and professional career.\n\nTo imbibe moral and ethical values in students with concern to society and environment.\n "
+                />
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/bentham"
+                android:textColor="#03A9F4"
+                android:layout_marginLeft="10dp"
+                android:text="Program Educational Objectives :"
+                android:layout_marginTop="10dp"
+                android:textSize="22sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/squada_one"
+                android:textColor="#5E4D7A"
+                android:layout_marginLeft="10dp"
+                android:text="The student will be able to succeed in their career by pursuing higher studies.\n\nThe student will be able to exhibit sound foundation in domain knowledge.\n\nThe student will be able to demonstrate professional skills through effective communication, teamwork, multidisciplinary approach and ethical behavior with concern to society and environment\n"
+                android:layout_marginTop="10dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Department Of IT "
+                    android:fontFamily="@font/donegal_one"
+                    android:textColor="#F68C6A"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/it"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Sharad Institute of Technology – Polytechnic established in 2008. Since its establishment, SIT has been famous as a college for masses. SIT always focuses on finding out the talent in masses And nourishing them. IT department is in function since the establishment of SIT Polytechnic. We have no doubt whatsoever in saying that the IT Department of SIT is of high global standards. Faculties of IT Department are highly qualified with great potential. All the labs are equipped with necessary with latest computer machines. All the necessary software’s are genuine and duly installed. It is needless to say that every lab is equipped with high speed internet connection and power back up. As far as rules of the AICTE are concerned regarding faculties And labs, we are proud say that we have gone well beyond. To summarize sky is the limit for IT Department."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/bentham"
+                    android:text="Vision :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="To excel in Information Technology engineering education to produce  professionally competent engineers with lifelong learning attitude for the accomplishment of ever-growing needs of society and industry.”"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bentham"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Mission :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                   android:text="To provide quality education through effective teaching learning methodologies with stimulating environment for preparing technical and professional competent engineers.\n\n To build up professional skills in students that will help them to succeed and progress in their personal and professional career.\n\n To imbibe professional ethics, social responsibilities in students for society and environment.\n" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bentham"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Program Educational Objectives :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:text="PEO1 – Demonstrate professional skills and ethical behavior with concern to society and environment. \n\n PEO2 – Acquire domain knowledge to formulate, solve and analyze IT engineering problems.\n\n PEO3 –Take up higher education to succeed in their career.\n "
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Department Of Electrical "
+                    android:fontFamily="@font/donegal_one"
+                    android:textColor="#F68C6A"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/electrical"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bentham"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Department At A Glance :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="The department of Electrical Engineering established in the year 2010. The department has sanctioned intake capacity of 60 students. All laboratories of department are well equipped and the additional facility is introduced for better teaching learning process. The department has team of experienced, dynamic and young teaching faculty. Main features of the department are MOU’s with different industries, Industry-Institute interaction for training the students. The department is always enthusiastic in conducting various workshops for faculty and students. To enhance teaching learning process Industrial visits and expert lecture are conducted. Department has made sincere efforts in the overall development of students through encouraging students for participating in different technical, nontechnical and  sport events at state /national level Department milestones are our alumni which are serving  across the nation in various sectors."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/bentham"
+                    android:text="Vision :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="“To be a leader in developing competent Electrical Engineer to serve for the betterment of society.”"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bentham"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Mission :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="M-1:Imparting technical knowledge through effective teaching – learning process.\n\n M-2:Nurturing skills and  attitude in students to excel in their profession.\n\n M-3:Creating awareness about social responsibilities with ethical values.\n"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bentham"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Program Educational Objectives :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="PSO1 –Install and Maintain Electrical Equipment \n\n PSO2 – Provide solution for saving Electrical Energy\n"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text="Electronics And Telecommunication Regular Shift "
+                    android:fontFamily="@font/donegal_one"
+                    android:textColor="#F68C6A"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/etc1"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bentham"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Department At A Glance :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Electronics and Telecommunication is a branch of engineering which has remarkably influenced the life of the mankind. Globalization has brought about a revolutionary change in the Electronics and Telecommunication sector and its diversified advancement has evolved into various innovations which were impossible in the primitive ages.\nThe department of Electronics and Telecommunication Engineering is established in 2008 with intake capacity of 60. The department has the state of art infrastructure, which includes classrooms and laboratories The department is having well qualified, experienced and dedicated faculty. The students of the department always excel in co-curricular and extracurricular activities. The department is committed to excellence in teaching learning process. To strengthen Industry Institute interaction the department has MoUs with different industries. Students are encouraged to learn beyond the class room teaching through guest lectures, industrial visits and workshops. To showcase students technical and presentation skills the department organizes various competitions/presentations."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/bentham"
+                    android:text="Vision :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="“To provide quality education in Electronics and telecommunication engineering to prepare professionally competent engineers to meet societal needs.”"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bentham"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Mission :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="M-1: To impart knowledge in the field of Electronics and Telecommunication Engineering to face the technological challenges.\n\nM-2: To inculcate right attitude and ethical values among students.\n\n M-3: To prepare students with professional skills for the successful career and motivate for higher education."                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bentham"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Program Educational Objectives :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:text="PEO 1 : To prepare students for higher studies and apply technical skills in Electronics and Telecommunication Engineering\n\n PEO 2 : To prepare students for soft skills with ethical values and ability to work in team.\n\n PEO 3 : To develop professionalism with strong foundation in domain knowledge "
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bentham"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Program Specific Outcomes :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:text="1.Apply basic knowledge related to electronics circuits, embedded and communication systems to solve engineering/societal problems.\n\n 2.Design and analyze electronic functional elements for a variety of applications, with skills to interpret and communicate results.\n\n 3.Exhibit logical skills through programming practice in assembly and high level languages on appropriate platforms.\n"
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="16dp">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/donegal_one"
+                    android:text="Mechanical Engineering"
+                    android:textColor="#F68C6A"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"
+                    android:src="@drawable/mech"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/bentham"
+                    android:text="Introduction :"
+                    android:textColor="#03A9F4"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:text="It is privilege to introduce our Mechanical department which is considered as one of the mother branches in Engineering. Since 2008 our dedicated and well qualified staff has been  imparting quality education and as a result the intake of Mechanical department has grown from 60 to 240.
+
+Here in the department we have CNC Production center, well equipped workshop and Advanced Labs which helps students to cut the gap between industry and academia."
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#03A9F4"
+                    android:fontFamily="@font/bentham"
+                    android:layout_marginLeft="10dp"
+                    android:text="Vision :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:text="“Imparting quality education, looking after overall development of students and conducting need based activities for successful career in Mechanical Engineering.”"
+                    android:layout_marginTop="10dp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bentham"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Mission:"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:text="Develop the students for professionalism.\n\n Prepare the students to take up career in different fields.\n\n Imbibe moral and ethical values in students.\n"
+                    android:layout_marginTop="10dp"
+                    />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bentham"
+                    android:textColor="#03A9F4"
+                    android:layout_marginLeft="10dp"
+                    android:text="Program Educational Objectives :"
+                    android:layout_marginTop="10dp"
+                    android:textSize="22sp"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/squada_one"
+                    android:textColor="#5E4D7A"
+                    android:layout_marginLeft="10dp"
+                    android:text="The student will be able to pursue successful career with strong domain knowledge.The student will be able to continue professional development through self learning and higher educationThe student will be able to Seek lifelong learning through moral and ethical values."
+                    android:layout_marginTop="10dp"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+
+
+    </LinearLayout>
+
+</ScrollView>
+
+</LinearLayout>
+</LinearLayout>

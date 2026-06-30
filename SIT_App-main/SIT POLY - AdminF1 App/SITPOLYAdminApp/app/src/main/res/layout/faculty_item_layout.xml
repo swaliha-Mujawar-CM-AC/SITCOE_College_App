@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="4dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:weightSum="2">
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.5"
+            android:orientation="vertical"
+            android:gravity="center_vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teacher_name_row"
+            android:text="vbbsvbwsvbw"
+            android:textSize="18sp"/>
+
+            <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teacher_email_row"
+                android:text="vbbsvbwsvbw"
+            android:textSize="18sp"/>
+
+            <TextView
+                android:id="@+id/teacher_post_row"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="vbbsvbwsvbw"
+                android:textSize="18sp" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="update info"
+                android:id="@+id/update_info_btn"
+                android:layout_marginVertical="4dp"
+                style="@style/Widget.MaterialComponents.Button.OutlinedButton"/>
+
+
+
+
+        </LinearLayout>
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:id="@+id/teacher_image_row"
+                android:src="@mipmap/ic_launcher"
+                android:layout_gravity="center_horizontal"/>
+
+            
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

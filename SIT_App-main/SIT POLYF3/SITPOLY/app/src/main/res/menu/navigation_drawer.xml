@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_ebook"
+        android:title="Study Material"
+        android:icon="@drawable/ic_baseline_picture_as_pdf_24"/>
+    <item
+        android:id="@+id/navigation_video"
+        android:title="Dept Notice"
+        android:icon="@drawable/ic_baseline_event_note_24"/>
+
+    <item
+        android:id="@+id/department"
+        android:title="Departments"
+        android:icon="@drawable/department"/>
+    <item
+        android:id="@+id/navigation_website"
+        android:title="Website"
+        android:icon="@drawable/ic_baseline_web_24"/>
+
+
+    <item
+        android:id="@+id/navigation_share"
+        android:title="Share"
+        android:icon="@drawable/share"/>
+
+    <item
+        android:id="@+id/navigation_developers"
+        android:title="Developers"
+        android:icon="@drawable/developers"/>
+
+    <item
+        android:id="@+id/navigation_rate"
+        android:title="Rate Us"
+        android:icon="@drawable/rate"/>
+    <item
+        android:id="@+id/logout"
+        android:title="Log Out"
+        android:icon="@drawable/logout"/>
+
+
+</menu>

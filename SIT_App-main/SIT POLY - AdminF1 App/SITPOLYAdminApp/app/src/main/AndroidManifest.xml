@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.empire.sitpoly_adminapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SITPOLYAdminApp">
+        <activity android:name=".privateData.UpNoticeActivity"></activity>
+        <activity android:name=".activities.ClassTeacherActivity" />
+        <activity android:name=".activities.StudentDetailActivity" />
+        <activity android:name=".activities.RegisterStudentActivity" />
+        <activity android:name=".notice.DeleteNoticeActivity" />
+        <activity android:name=".faculty.UpdateTeacherActivity" />
+        <activity android:name=".faculty.AddTeacherActivity" />
+        <activity android:name=".faculty.UpdateFacultyActivity" />
+        <activity android:name=".activities.NotesActivity" />
+        <activity android:name=".activities.UploadImageActivity" />
+        <activity android:name=".notice.UploadNoticeActivity" />
+        <activity android:name=".activities.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

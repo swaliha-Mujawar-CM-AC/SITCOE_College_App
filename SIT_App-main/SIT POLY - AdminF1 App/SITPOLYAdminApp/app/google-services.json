@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "756038669942",
+    "firebase_url": "https://sit-poly.firebaseio.com",
+    "project_id": "sit-poly",
+    "storage_bucket": "sit-poly.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:756038669942:android:b363bee042b220ec703157",
+        "android_client_info": {
+          "package_name": "com.empire.sitpoly_adminapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "756038669942-eomg0ku0fq0llhtag2b15mnmm34ejrhj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP1NKqp16ODGk6D577CkR6AyFlejpHy9k"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "756038669942-eomg0ku0fq0llhtag2b15mnmm34ejrhj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

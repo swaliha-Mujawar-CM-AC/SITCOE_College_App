@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+
+                android:src="@mipmap/ic_launcher"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Admin collage App"
+                android:id="@+id/tempYear"
+                android:layout_marginLeft="16dp"
+                android:textSize="18sp"
+                android:textColor="@color/black"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="delete"
+                android:background="@android:color/transparent"
+                android:id="@+id/delete_notice_btn"
+                android:textColor="@android:color/holo_red_dark"
+                android:layout_marginStart="80dp"
+                />
+
+
+
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/delete_notice_title"
+            android:text="gbfbwsivivvsvvvvv vfvn b viv wr bvw fiwvjfv vivbrv rvriv rwvrvr evev ewewr rp rev rec cjehphc ec ew ew e"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:layout_margin="8dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:id="@+id/delete_notice_image"
+            android:layout_height="wrap_content"
+            android:background="#eee"
+            android:scaleType="fitXY"/>
+
+
+
+
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".authentication.RegisterActivity">
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_baseline_person_24"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="30dp"
+        android:id="@+id/fab_register"/>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="SIT Ploytechic, Yadrav"
+                android:textAllCaps="true"
+                android:layout_marginTop="25dp"
+                android:textSize="22sp"
+                android:layout_marginStart="22dp"
+                android:textColor="@android:color/holo_red_dark"
+                android:textStyle="bold"
+                android:fontFamily="@font/inder"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Student Registration"
+                android:layout_marginTop="8dp"
+                android:textSize="20sp"
+                android:layout_marginStart="22dp"
+                android:textColor="#000"
+                android:textStyle="bold"
+                android:fontFamily="@font/inder"/>
+
+            <EditText
+                android:id="@+id/student_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Full Name"
+                android:padding="20dp"
+                android:layout_marginTop="30dp"
+                android:textColor="#fff"
+                android:backgroundTint="#f79987"
+                android:textColorHint="@color/white"
+                android:background="@drawable/round"
+                android:layout_marginHorizontal="30dp"
+                android:inputType="text"
+                android:imeOptions="actionNext"
+                android:stateListAnimator="@null"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enrollment Number"
+                android:padding="20dp"
+                android:id="@+id/student_enrollment_no"
+                android:imeOptions="actionNext"
+                android:inputType="number"
+                android:backgroundTint="#f79987"
+                android:layout_marginTop="12dp"
+                android:textColor="#fff"
+                android:textColorHint="@color/white"
+                android:background="@drawable/round"
+                android:layout_marginHorizontal="30dp"
+                android:stateListAnimator="@null"
+                />
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="30dp"
+                app:cardBackgroundColor="#f79987"
+                android:stateListAnimator="@null"
+                >
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/student_department_sp"
+                    android:spinnerMode="dropdown"
+                    android:gravity="center"
+
+                    android:padding="8dp"
+                    android:dropDownSelector="@android:color/holo_red_dark"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="30dp"
+                app:cardBackgroundColor="#f79984"
+                android:stateListAnimator="@null"
+                >
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/student_year_sp"
+                    android:spinnerMode="dropdown"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:dropDownSelector="@android:color/holo_red_dark"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="15dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="30dp"
+                app:cardBackgroundColor="#f79987"
+                android:stateListAnimator="@null"
+                >
+                <Spinner
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/student_class_teacher_sp"
+                    android:spinnerMode="dropdown"
+                    android:gravity="center"
+                    android:padding="8dp"
+                    android:dropDownSelector="@android:color/holo_red_dark"
+                    />
+            </androidx.cardview.widget.CardView>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email Id"
+                android:padding="20dp"
+                android:id="@+id/student_userId_ed"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#f79987"
+                android:textColor="#fff"
+                android:imeOptions="actionNext"
+                android:textColorHint="@color/white"
+                android:background="@drawable/round"
+                android:layout_marginHorizontal="30dp"
+                android:stateListAnimator="@null"
+                />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Password"
+                android:padding="20dp"
+                android:layout_marginTop="12dp"
+                android:backgroundTint="#f79987"
+                android:textColor="#fff"
+                android:textColorHint="@color/white"
+                android:background="@drawable/round"
+                android:id="@+id/student_password_ed"
+                android:layout_marginHorizontal="30dp"
+                android:imeOptions="actionDone"
+                android:stateListAnimator="@null"
+                />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register student"
+                android:padding="20dp"
+                android:background="@drawable/round"
+                android:backgroundTint="#f1351d"
+                android:layout_marginBottom="28dp"
+                android:textAllCaps="true"
+                android:layout_marginTop="22dp"
+                android:textColor="#fff"
+                android:textStyle="bold"
+                android:layout_gravity="center_horizontal"
+                android:id="@+id/resister_student_btn"/>
+
+
+        </LinearLayout>
+
+
+
+
+    </ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#eee"
+    tools:context=".activities.PdfActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:id="@+id/toolbar_pdf"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        android:background="@android:color/holo_red_dark"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eee"
+        android:paddingTop="4dp"
+        android:layout_below="@id/toolbar_pdf"
+        android:id="@+id/pdf_recycler"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:textSize="22sp"
+        android:id="@+id/text_pdf"
+        android:textAlignment="center"
+        android:textColor="@android:color/holo_red_dark"
+        android:fontFamily="@font/inder"/>
+
+
+</RelativeLayout>
